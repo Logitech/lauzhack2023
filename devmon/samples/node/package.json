@@ -1,0 +1,12 @@
+{
+    "name": "logi-devmon-test",
+    "version": "1.0.0",
+    "devDependencies": {
+        "chai": "latest",
+        "mocha": "latest",
+        "ws": "latest"
+    },
+    "scripts": {
+        "test": "mocha --check-leaks --recursive --reporter spec --timeout 60000"
+    }
+}

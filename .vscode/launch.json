@@ -1,0 +1,248 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "node: Enumerate Devices",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=enumerate"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Device Info",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get device info"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Spy Config",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get spy config"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Spy Device",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=spy device"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Wheel Config",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get wheel config"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Wheel Events",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get wheel events"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Thumb Wheel Config",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get thumb wheel config"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Thumb Wheel Events",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get thumb wheel events"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Get Special Keys Config",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=get special keys config"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Divert Special Key",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=divert special key"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Divert Pointer (when pressing middle button)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=can divert pointer when pressing middle button"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "node: Divert Pointer (always)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=can forcibly divert pointer"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
+        }
+    ]
+}
