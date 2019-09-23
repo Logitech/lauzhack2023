@@ -4,7 +4,7 @@ We want you to create an innovative solution to improve any digital worker’s (
 
 # Resources
 
-To be populated
+* [Input Device Monitor](https://logitech.github.io/hackzurich/devmon/index.html)
 
 # Support
 
