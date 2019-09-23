@@ -1,0 +1,12 @@
+[submodule "devmon/samples/cpp/submodules/googletest"]
+	path = devmon/samples/cpp/submodules/googletest
+	url = git@github.com:google/googletest.git
+[submodule "devmon/samples/cpp/submodules/json"]
+	path = devmon/samples/cpp/submodules/json
+	url = git@github.com:nlohmann/json.git
+[submodule "devmon/samples/cpp/submodules/websocketpp"]
+	path = devmon/samples/cpp/submodules/websocketpp
+	url = git@github.com:zaphoyd/websocketpp.git
+[submodule "devmon/samples/cpp/submodules/asio"]
+	path = devmon/samples/cpp/submodules/asio
+	url = git@github.com:chriskohlhoff/asio.git
