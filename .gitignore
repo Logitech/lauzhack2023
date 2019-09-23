@@ -1,0 +1,38 @@
+#####################
+# Operating Systems #
+#####################
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# MAC OS
+.DS_Store
+
+# Temporary files
+*~
+
+################
+# Text Editors #
+################
+
+.vs/
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+#########
+# Misc. #
+#########
+
+# Build output
+build/
+
+# Nodejs
+node_modules/
