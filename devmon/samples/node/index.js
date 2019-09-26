@@ -8,6 +8,12 @@ const assert = require('chai').assert;
 
 const serverUrl = 'ws://localhost:9876';
 
+const sleep = timeoutMs => {
+    return new Promise(resolve => {
+        setTimeout(resolve, timeoutMs);
+    });
+};
+
 describe('logi-devmon test', () => {
 
     it('can enumerate devices', done => {
@@ -655,5 +661,35 @@ describe('logi-devmon test', () => {
             console.log('Test ending');
             ws.close();
         }, 10000);
+    });
+
+    it('can type text', done => {
+
+        // Connect to websocket server
+        const ws = new Websocket(serverUrl);
+
+        ws.on('open', async () => {
+            console.log('Connected to server');
+
+            console.log('Sleep 3 seconds, grab a text editor!');
+            await sleep(3000);
+            
+            console.log('send_input');
+            ws.send(JSON.stringify({
+                verb: 'send_input',
+                path: 'text',
+                args: { value: 'HackZürich 2019 rocks!' }
+            }));
+
+            console.log('Test ending');
+            ws.close();
+        });
+
+        ws.on('close', () => {
+            console.log('Connection closed');
+
+            // End test case
+            done();
+        });
     });
 });
