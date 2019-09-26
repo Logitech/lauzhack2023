@@ -8,15 +8,17 @@ We want you to create an innovative solution to fit a need or add value to digit
 
 Each team will be given bundle of MX Master 3, MX Keys keyboard and a [C922 Pro Stream](https://www.logitech.com/en-ch/product/c922-pro-stream-webcam) webcam:
 
-<img src="img/c922-pro-hd-webcam-refresh.png" height="200">
+<div style="text-align:center">
+    <img src="img/c922-pro-hd-webcam-refresh.png" height="200">
+</div>
 
-You will leverage our SDK to hack into our devices and will be given technical support and various code samples.
+You will be able leverage our SDK camera input and will be given technical support and various code samples.
 
 # Rewards
 
 Winners will get amazing prizes from our brands:
 
-![https://www.logitech.com/en-ch/](img/logitech-brands.png)
+<img src="img/logitech-brands.png" style="float:right;margin-left:10px">
 
 # Food for Thoughts
 
@@ -40,4 +42,6 @@ Winners will get amazing prizes from our brands:
 
 For support, you can either ping us on [our Slack channel](https://hackzurich2019.slack.com/messages/CLCLWJWBU) or just come to our booth!
 
-![https://www.logitech.com](img/logitech.png)
+<div style="text-align:center">
+    <a href="https://www.logitech.com"><img src="img/logitech.png"></a>
+</div>
