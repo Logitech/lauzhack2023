@@ -38,7 +38,7 @@ Winners will get amazing prizes from our brands:
 
 * [Input Device Monitor SDK](./devmon/) : **hack into our devices!** Spy or capture device events!
 
-*  Input event injections docs (Win [here](https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms646304(v=vs.85).aspx) and [there](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646310(v=vs.85).aspx), OSX [here](https://developer.apple.com/documentation/coregraphics/1456564-cgeventcreatekeyboardevent) and [there](https://developer.apple.com/documentation/coregraphics/1456527-cgeventpost), [Linux](http://thiemonge.org/getting-started-with-uinput))
+*  Input event injections docs (Win [here](https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms646304(v=vs.85).aspx) and [there](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646310(v=vs.85).aspx), OSX [here](https://developer.apple.com/documentation/coregraphics/1456564-cgeventcreatekeyboardevent) and [there](https://developer.apple.com/documentation/coregraphics/1456527-cgeventpost), [Linux](https://www.kernel.org/doc/html/v4.12/input/uinput.html))
 
 * Unleash the power of the **Logitech C922 webcam**! Start with [this](https://github.com/spmallick/learnopencv) comprehensive collection of OpenCV code samples
 
