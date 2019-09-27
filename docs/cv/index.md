@@ -1,6 +1,6 @@
 # Face Landmarks detection
 
-Code sample is located in [here](../../cv/logi-cv-toolbox/FacialLandmarkDetection).
+Code sample is located in [here](https://github.com/Logitech/hackzurich2019/tree/master/cv/logi-cv-toolbox/FacialLandmarkDetection).
 
 This is a quick example of how to use face detection together with facial landmarks detection. Having facial landmarks you can estimate the head position in 3D space. This is also a first step to implement an eye tracking system. You already know where are the eyes. There are [simple ways](https://pysource.com/2019/01/14/eye-gaze-detection-1-gaze-controlled-keyboard-with-python-and-opencv-p-3/) to estimate the gaze direction.
 
