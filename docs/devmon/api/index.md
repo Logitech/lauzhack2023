@@ -10,7 +10,7 @@ With the API can spy device and trap a couple of events.
 
 Ensure you have a Logitech mouse or Keyboard connected to your computer. Supported devices for this hackathon are MX Master 3 (mouse) and MX Keys (keyboard).
 
-Download [logi-devmon executable](https://github.com/Logitech/hackzurich/tree/master/devmon/bin) and run it from a terminal.
+Download [logi-devmon executable](https://github.com/Logitech/hackzurich2019/tree/master/devmon/bin) and run it from a terminal.
 
 You will need to allow websocket server through your firewall.
 
@@ -18,7 +18,7 @@ You will need to allow websocket server through your firewall.
 
 ## TL;DR; Let me try!
 
-Launch `logi-devmon`, and open your web browser at [this URL](https://logitech.github.io/hackzurich/devmon/test/).
+Launch `logi-devmon`, and open your web browser at [this URL](https://logitech.github.io/hackzurich2019/devmon/test/).
 
 You will experiment with the possibilities of the API.
 
