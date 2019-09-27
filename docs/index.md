@@ -32,11 +32,17 @@ Winners will get amazing prizes from our brands:
 
 * Enhance 3D object manipulation with hi-resolution wheel and thumb-wheel.
 
+* Use the SDK, the Logitech C922 webcam and some Computer Vision magic to: monitor your activity (presence detection), attention span (gaze detection, keyboard/mouse activity) and provide recommendations, analytics, etc.
+
 # Resources
 
 * [Input Device Monitor SDK](./devmon/) : **hack into our devices!** Spy or capture device events!
 
 *  Input event injections docs (Win [here](https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms646304(v=vs.85).aspx) and [there](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646310(v=vs.85).aspx), OSX [here](https://developer.apple.com/documentation/coregraphics/1456564-cgeventcreatekeyboardevent) and [there](https://developer.apple.com/documentation/coregraphics/1456527-cgeventpost), [Linux](http://thiemonge.org/getting-started-with-uinput))
+
+* Unleash the power of the **Logitech C922 webcam**! Start with [this](https://github.com/spmallick/learnopencv) comprehensive collection of OpenCV code samples
+
+* Want a quick Computer Vision sample to get you started? [This](./cv) should be a good first step towards your human activity monitoring system (no cloud involved ;-)
 
 # Support
 
