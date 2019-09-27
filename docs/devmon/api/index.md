@@ -1,6 +1,6 @@
 # Logitech Input Device Monitor API
 
-This is the documentation for `logi-devmon` websocket API.
+This is the documentation for `logi-devmon` websocket API (works on Windows / Mac / Linux)
 
 Purpose of it is to provide access to Logitech input device events (e.g. key presses) the easy way.
 
@@ -262,6 +262,11 @@ x and y are absolute screen coordinates.
     "unitId":1953575442
 }
 ```
+
+**Notes**
+
+* On MacOS you should run `logi-devmon` as sudo, and add it to accessibility exceptions to be able to inject keys.
+* On Linux, you can update your udev rules to allow interacting with hidraw and input devices, or simply run as sudo.
 
 **Limitation**
 
@@ -629,3 +634,24 @@ The special key should support pointer redirection (`rawXY` and `forceRawXY` equ
 As of now, the only `controlId` supported is 215 (Virtual Gesture Button). 
 
 See [control IDs table](./controlids.md)
+
+### Send text input (Mac OS and Windows)
+
+You should send the following command:
+
+```
+{
+    "verb": "send_input",
+    "path": "text",
+    "args":
+    {
+        "value": <a string to inject>
+    }
+}
+```
+
+Then `<a string to inject>` should be printed to foreground application (e.g. a text editor).
+
+You can use it to inject say a code snippet.
+
+*Note*: on Mac OS, you add logi-devmon to accessibility menu.
