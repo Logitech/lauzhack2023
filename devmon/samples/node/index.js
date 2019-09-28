@@ -3,6 +3,9 @@
 // Import Websocket library.
 const Websocket = require('ws');
 
+// OS library
+const os = require('os');
+
 // Unit testing helpers.
 const assert = require('chai').assert;
 
@@ -679,6 +682,39 @@ describe('logi-devmon test', () => {
                 verb: 'send_input',
                 path: 'text',
                 args: { value: 'HackZürich 2019 rocks!' }
+            }));
+
+            console.log('Test ending');
+            ws.close();
+        });
+
+        ws.on('close', () => {
+            console.log('Connection closed');
+
+            // End test case
+            done();
+        });
+    });
+
+    it('can send keystroke', done => {
+
+        const vkey = os.type() == 'Windows_NT' ? 0x34 : 21; // '4' on Windows
+        const pressed = true;
+
+        // Connect to websocket server
+        const ws = new Websocket(serverUrl);
+
+        ws.on('open', async () => {
+            console.log('Connected to server');
+
+            console.log('Sleep 3 seconds, grab a text editor!');
+            await sleep(3000);
+
+            console.log('send_input');
+            ws.send(JSON.stringify({
+                verb: 'send_input',
+                path: 'key',
+                args: { vkey, pressed }
             }));
 
             console.log('Test ending');

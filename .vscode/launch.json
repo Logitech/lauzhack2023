@@ -263,6 +263,26 @@
             "console": "integratedTerminal",
             "sourceMaps": false,
             "outFiles": []
+        },
+        {
+            "name": "node: Send keystroke",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/devmon/samples/node/node_modules/mocha/bin/_mocha",
+            "stopOnEntry": false,
+            "args": ["devmon/samples/node/index.js", "--no-timeouts", "--grep=send keystroke"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "testing"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": []
         }
     ]
 }
