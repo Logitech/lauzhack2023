@@ -46,7 +46,7 @@ Winners will get amazing prizes from our brands:
 
 # Support
 
-For support, you can either ping us on [our Slack channel](https://hackzurich2019.slack.com/messages/CLCLWJWBU) or just come to our booth!
+For support, you can either ping us on [Discord](https://discord.com/channels/1079762641309925406/1178706240306696232) or just come to our booth!
 
 <div style="text-align:center">
     <a href="https://www.logitech.com"><img src="img/logitech.png"></a>
