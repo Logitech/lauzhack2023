@@ -16,7 +16,7 @@ This year the Logitech challenge is about prototyping creative answers to the fo
 - We highly recommend you to prepare a short video showing your demo at its best. It can help you to avoid the 'demo effect'.
 
 # Resources
-- Logitech Options+ 
+- Logitech Options+ plug-ins [SDK](./options-plus/)
 - Loupdeck [SW](https://support.loupedeck.com/downloads) and [SDK](https://support.loupedeck.com/getting-started)
 
 # Support
