@@ -18,6 +18,8 @@ This year the Logitech challenge is about prototyping creative answers to the fo
 # Resources
 - Logitech Options+ plug-ins [SDK](./options-plus/)
 - Loupdeck [SW](https://support.loupedeck.com/downloads) and [SDK](https://support.loupedeck.com/getting-started)
+- [Input Device Monitor SDK](./devmon/) : **hack into our devices!** Spy or capture device events!
+- [Getting started with realtime pose estimation](./fastPose/) and [human pose estimation using OpenCV](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
 
 # Support
 
