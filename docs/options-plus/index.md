@@ -14,13 +14,13 @@ To configure the end-to-end execution environment for Options+:
 
    ``/Users/<username>/Library/Application Support``
 
-Run the installer for the appropriate target environment to install the Options+ software.  For Windows, this will be the logioptionsplus_installer_offline.exe file;  for macOS, the application bundle is archived in the logioptionsplus_installer_offline.Mac.zip file.
+Run the installer for the appropriate target environment to install the Options+ software.  Get the installers from the releases section: [Windows Installer](https://github.com/Logitech/lauzhack2023/releases/download/options-plus-installers/logioptionsplus_installer_offline_WIN.exe), [MacOS Installer](https://github.com/Logitech/lauzhack2023/releases/download/options-plus-installers/logioptionsplus_installer_offline_Mac.zip).
 Navigate to the Application Settings page in Options+, and enable development mode for plug-ins.
 
 ## Creating a Plug-in Module
 Plug-in modules are standalone executables or JavaScript applications that communicate with the Options+ plug-in manager using a WebSocket interface.
 
-There is an [example plug-in module](./example%20plugin/) that illustrates the basics of plug-in development.  This plug-in will display the local weather in a new browser tab or window.  The plug-in has been implemented in JavaScript, and in C++ for Windows and Apple Silicon macOS.  
+There is an [example plug-in module](./example_plugin/) that illustrates the basics of plug-in development.  This plug-in will display the local weather in a new browser tab or window.  The plug-in has been implemented in JavaScript, and in C++ for Windows and Apple Silicon macOS.  
 
 There is also a more detailed document, named [logi_plugin_sdk.pdf](./logi_plugin_sdk.pdf), that describes the plug-in SDK.
 
