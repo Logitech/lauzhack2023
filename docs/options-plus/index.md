@@ -20,7 +20,7 @@ Navigate to the Application Settings page in Options+, and enable development mo
 ## Creating a Plug-in Module
 Plug-in modules are standalone executables or JavaScript applications that communicate with the Options+ plug-in manager using a WebSocket interface.
 
-There is an [example plug-in module](./example_plugin/) that illustrates the basics of plug-in development.  This plug-in will display the local weather in a new browser tab or window.  The plug-in has been implemented in JavaScript, and in C++ for Windows and Apple Silicon macOS.  
+There is an [example plug-in module](https://github.com/Logitech/lauzhack2023/tree/master/docs/options-plus/example_plugin) that illustrates the basics of plug-in development.  This plug-in will display the local weather in a new browser tab or window.  The plug-in has been implemented in JavaScript, and in C++ for Windows and Apple Silicon macOS.  
 
 There is also a more detailed document, named [logi_plugin_sdk.pdf](./logi_plugin_sdk.pdf), that describes the plug-in SDK.
 
