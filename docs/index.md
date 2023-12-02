@@ -21,7 +21,7 @@ This year the Logitech challenge is about prototyping creative answers to the fo
 - [Input Device Monitor SDK](./devmon/) : **hack into our devices!** Spy or capture device events! (supports only MX devices)
 - [SDKs](https://www.logitechg.com/en-us/innovation/developer-lab.html) for our gaming devices
 - [Getting started with realtime pose estimation](./fastPose/) and [human pose estimation using OpenCV](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
-- [LITRA Light Library](https://github.com/timrogers/litra)
+- [LITRA Light Library](https://github.com/lnovelli/litra-lx)
   
 # Support
 
